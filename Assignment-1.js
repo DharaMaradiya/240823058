@@ -1,13 +1,13 @@
 //1 Check Even or Odd
 
-const n = 6
-if(n%2)
-{
-    console.log("Odd")
-}else
-{
-    console.log("Even")
-}
+// const n = 6
+// if(n%2)
+// {
+//     console.log("Odd")
+// }else
+// {
+//     console.log("Even")
+// }
 
 //2 Find the Maximum of Two Numbers
 
@@ -35,15 +35,15 @@ if(n%2)
 
 //4. Sum of Natural Numbers
 
-function sumOfNaturalNumbers(n) {
-  let sum = 0;
-  for (let i = 1; i <= n; i++) {
-    sum += i;
-  }
-  return sum;
-}
+// function sumOfNaturalNumbers(n) {
+//   let sum = 0;
+//   for (let i = 1; i <= n; i++) {
+//     sum += i;
+//   }
+//   return sum;
+// }
 
-console.log(sumOfNaturalNumbers(5));
+// console.log(sumOfNaturalNumbers(10));
 
 //5. Factorial of a Number
 
@@ -55,19 +55,20 @@ console.log(sumOfNaturalNumbers(5));
 //   return result;
 // }
 
-// console.log(factorial(5));
+// console.log(factorial(4));
 
 //6. Print Multiplication Table
 
-// let number = 5;  
+// let number = 6;  
 
-// for (let i = 1; i <= 10; i++) {
+// for (let i = 1; i <= 10; i++) 
+// {
 //   console.log(`${number} x ${i} = ${number * i}`);
 // }
 
 //7. Reverse a Number
 
-// let number = 12345;  
+// let number = 21365;  
 
 // let reversed = number.toString().split('').reverse().join('');
 
@@ -75,7 +76,7 @@ console.log(sumOfNaturalNumbers(5));
 
 //8. Palindrome Check (Number)
 
-// let number = 12321;  
+// let number = 121;  
 
 
 // let numberString = number.toString();
@@ -89,7 +90,7 @@ console.log(sumOfNaturalNumbers(5));
 
 //9. Check Prime Number
 
-// let number = 7;  
+// let number = 11;  
 
 // if (number <= 1) {
 //   console.log("The number is not prime.");
@@ -112,7 +113,7 @@ console.log(sumOfNaturalNumbers(5));
 //10. Count Digits in a Number
 
 
-// let number = 12345;  
+// let number = 123;  
 
 // let digitCount = number.toString().length;
 
@@ -121,7 +122,7 @@ console.log(sumOfNaturalNumbers(5));
 //11. Sum of Digits
 
 
-// let number = 12345;  
+// let number = 1234;  
 
 // let sumOfDigits = number.toString().split('').reduce((sum, digit) => sum + Number(digit), 0);
 
@@ -154,7 +155,7 @@ console.log(sumOfNaturalNumbers(5));
 
 //13. Generate Fibonacci Series
 
-// let n = 10; s
+// let n = 10; 
 
 // let a = 0, b = 1;
 
@@ -240,7 +241,7 @@ console.log(sumOfNaturalNumbers(5));
 
 //18. Print All Divisors
 
-// let number = 28;  
+// let number = 10;  
 
 // console.log(`Divisors of ${number}:`);
 
@@ -254,7 +255,7 @@ console.log(sumOfNaturalNumbers(5));
 
 //19. Number is Positive, Negative or Zero
 
-// let number = -5;  
+// let number = 8;  
 
 // if (number > 0) {
 //   console.log(`${number} is a Positive number.`);
