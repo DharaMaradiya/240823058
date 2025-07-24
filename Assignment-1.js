@@ -169,14 +169,14 @@
 
 //14. Check Vowel or Consonant
 
-// let character = 'a';  
+let character = 'i';  
 
 
-// if ('aeiou'.includes(character.toLowerCase())) {
-//   console.log(`${character} is a vowel.`);
-// } else {
-//   console.log(`${character} is a consonant.`);
-// }
+if ('aeiou'.includes(character.toLowerCase())) {
+  console.log(`${character} is a vowel.`);
+} else {
+  console.log(`${character} is a consonant.`);
+}
 
 
 //15. Simple Calculator
